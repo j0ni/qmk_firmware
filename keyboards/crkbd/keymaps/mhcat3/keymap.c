@@ -70,7 +70,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMM,   DOT,  SLSH,  RSFT,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                LOWER, LALTBSPC, ENT,      SPC, LGUIRPRN, RAISE \
+                                LOWER, LALTBSPC, ENT,     SPC, LGUIRPRN, RAISE \
                               //`--------------------'  `--------------------'
   ),
 
@@ -82,7 +82,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LSFT,   F11,   F12,   F13,   F14,   F15,                    F16,   F17,   F18,   F19,   F20, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                LOWER, LALTBSPC, ENT,      SPC, LGUIRPRN, RAISE \
+                                LOWER, LALTBSPC, SPC,     ENT, LGUIRPRN, RAISE \
                               //`--------------------'  `--------------------'
   ),
 
@@ -94,7 +94,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LSFT, XXXXX,  VOLD,  VOLU,  MUTE,  MPLY,                   UNDS,  PLUS,  LBRC,  RBRC,  BSLS,  TILD,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                LOWER, LALTBSPC, ENT,      SPC, LGUIRPRN, RAISE \
+                                LOWER, LALTBSPC, SPC,     ENT, LGUIRPRN, RAISE \
                               //`--------------------'  `--------------------'
   ),
 
@@ -106,7 +106,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LMOD,  LHUD,  LSAD,  LVAD,  PGDN,  END,                    BRID,  BRIU,  VOLD,  VOLU,  MUTE,  MPLY,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                LOWER, LALTBSPC, ENT,      SPC, LGUIRPRN, RAISE \
+                                LOWER, LALTBSPC, SPC,     ENT, LGUIRPRN, RAISE \
                               //`--------------------'  `--------------------'
   )
 };
